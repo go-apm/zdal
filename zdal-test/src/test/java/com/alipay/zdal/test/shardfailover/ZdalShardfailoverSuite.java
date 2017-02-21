@@ -12,13 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 @Suite.SuiteClasses({ 
 
 //shard+failover
-	SR953010.class,
-	SR953020.class,
-	SR953030.class,
-	SR953040.class,
-	SR953050.class,
-	SR953060.class,
-	SR953070.class
+
 }
 )
 

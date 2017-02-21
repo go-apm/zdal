@@ -9,9 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({ 
-	SR956010.class
-    ,SR956030.class,
-	 SR956020.class
+
 	
 })
 public class ZdalSqlParserSuite {

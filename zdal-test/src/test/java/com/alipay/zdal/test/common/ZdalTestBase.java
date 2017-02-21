@@ -3,7 +3,6 @@ package com.alipay.zdal.test.common;
 import org.junit.After;
 import org.junit.Before;
 
-import com.alipay.ats.assertion.TestAssertion;
 import com.alipay.zdal.client.jdbc.ZdalDataSource;
 
 public class ZdalTestBase {
@@ -14,8 +13,6 @@ public class ZdalTestBase {
     protected String         dbmode;
     protected String         zone;
     protected String         dataSourceLocal;
-
-    public TestAssertion     Assert = new TestAssertion();
 
     @Before
     public void beforTest() {

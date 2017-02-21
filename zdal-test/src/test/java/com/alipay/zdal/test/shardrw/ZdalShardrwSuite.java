@@ -11,14 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 @Suite.SuiteClasses({ 
 //shard+rw
 	
-	SR954010.class,SR954020.class,SR954030.class,SR954040.class,
-	SR954050.class,SR954060.class,
-	
-	SR954070.class,SR954080.class,
-	SR954090.class,SR954100.class,
-	SR954110.class
-	,SR954120.class,
-	SR954130.class,SR954140.class,SR954150.class
+
 
 }
 )
