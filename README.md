@@ -1,3 +1,20 @@
-Zdal  Zhifubao Distributed Data Layer
+## Zdal
+[![Build Status](https://travis-ci.org/yuanwhy/zdal.svg?branch=master)](https://travis-ci.org/yuanwhy/zdal)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-Zdal是支付宝自主研发的数据中间件产品，采用标准的JDBC规范，可以在分布式环境下看上去像传统数据库一样提供海量数据服务，是一种通用的分库分表数据库访问框架，解决单库单表数据库访问压力，Zdal主要提供分库分表，结果集合并，sql解析，数据库failover动态切换等功能，提供互联网金融行业的数据访问层统一解决方案，目前已经在支付宝的交易，支付，会员，金融等大部分关键应用上使用，并且在2013年双11大促中运行稳定。
+Zdal means Zhifubao Distributed Data Layer, is a middleware for shard databases and tables in Java. It has been used to scale out the data storage for Alibaba 11.11 in 2013. This is a fork from zhanglei/zdal.
+
+## Quick Start
+
+## Features
+
+## Changes
+
+## Documentation
+* [English](https://github.com/yuanwhy/zdal/wiki/Zdal-Tutorial)
+* [涓枃鏂囨。](https://github.com/yuanwhy/zdal/wiki/Zdal%E4%B8%AD%E6%96%87%E6%95%99%E7%A8%8B)
+
+## LICENSE
+
+Source code is licensed under the Apache Licence, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0.html).
