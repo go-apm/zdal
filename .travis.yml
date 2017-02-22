@@ -1,6 +1,8 @@
 language: java
 jdk:
   - openjdk6
+before_install:
+  - sh auto-add-jar.sh
 script: mvn clean install -DskipTests
 branches:
   only:
