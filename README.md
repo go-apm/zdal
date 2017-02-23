@@ -13,13 +13,14 @@ Zdal means Zhifubao Distributed Data Layer, is a middleware for shard databases 
      > macOS & Linux
      > * sh auto-add-jar.sh
      > * mvn clean install -DskipTests
-     >
-     > Windows
+
+     > Windows  
      > * mvn install:install-file -Dfile=zdal-datasource/lib/ojdbc6.jar -DgroupId=com.oracle \
              -DartifactId=ojdbc6 -Dversion=11.2.0.3.0 -Dpackaging=jar -DgeneratePom=true
      > * mvn clean install -DskipTests
 
      Or you can upload zdal-datasource/lib/ojdbc6.jar to your private maven repository directly
+
 ## Features
 
 ## Changes
