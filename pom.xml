@@ -16,6 +16,7 @@
 		<module>zdal-rule</module>
 		<module>zdal-datasource</module>
 		<module>zdal-test</module>
+		<module>zdal-doc</module>
 	</modules>
 
 	<properties>
