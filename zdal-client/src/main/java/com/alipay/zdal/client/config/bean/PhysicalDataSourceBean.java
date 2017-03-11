@@ -211,9 +211,6 @@ public class PhysicalDataSourceBean implements InitializingBean {
             throw new IllegalArgumentException("ERROR ## the userName is null of " + userName);
         }
 
-        if (StringUtil.isBlank(password)) {
-            throw new IllegalArgumentException("ERROR ## the password is null of " + password);
-        }
 
         if (minConn < 0) {
             throw new IllegalArgumentException("ERROR ## the minConn = " + minConn
