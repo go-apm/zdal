@@ -90,21 +90,13 @@ public class ZdalConfigurationLoader {
                                                                                String appDsName,
                                                                                String configPath) {
         List<String> zdalConfigurationFilePathList = new ArrayList<String>();
-        File configurationFile = new File(configPath, MessageFormat.format(
-            Constants.LOCAL_CONFIG_FILENAME_SUFFIX, appName, dbMode));
-        if (configurationFile.exists() && configurationFile.isFile()) {
-            zdalConfigurationFilePathList.add(configurationFile.getAbsolutePath());
-        }
-        configurationFile = new File(configPath, MessageFormat.format(
-            Constants.LOCAL_RULE_CONFIG_FILENAME_SUFFIX, appName, dbMode));
-        if (configurationFile.exists() && configurationFile.isFile()) {
-            zdalConfigurationFilePathList.add(configurationFile.getAbsolutePath());
-        }
-        if (zdalConfigurationFilePathList.isEmpty()) {
-            throw new ZdalConfigException(
-                "ERROR ## There is no local Zdal configuration files for " + appName
-                        + " to initialize ZdalDataSource.");
-        }
+
+        zdalConfigurationFilePathList.add(configPath + "/" + MessageFormat.format(
+                    Constants.LOCAL_CONFIG_FILENAME_SUFFIX, appName, dbMode));
+
+        zdalConfigurationFilePathList.add(configPath + "/" + MessageFormat.format(
+                Constants.LOCAL_RULE_CONFIG_FILENAME_SUFFIX, appName, dbMode));
+
         return loadZdalConfigurationContext(zdalConfigurationFilePathList
             .toArray(new String[zdalConfigurationFilePathList.size()]), appName, dbMode);
     }
