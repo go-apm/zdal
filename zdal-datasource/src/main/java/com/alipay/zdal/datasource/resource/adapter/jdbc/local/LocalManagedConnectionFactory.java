@@ -10,6 +10,7 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.Statement;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
@@ -150,6 +151,13 @@ public class LocalManagedConnectionFactory extends BaseWrapperManagedConnectionF
             if (con == null) {
                 throw new JBossResourceException("Wrong driver class for this connection URL");
             }
+
+            if ("true".equals(copy.getProperty("supportUft8mb4")))  {
+                Statement statement = con.createStatement();
+                statement.executeQuery("SET NAMES UTF8MB4");
+                statement.close();
+            }
+
             String stz = copy.getProperty("sessionTimeZone");//支持oracle-driver中设置timestamp字段的属性.
             if (stz != null && stz.trim().length() > 0
                 && (con instanceof oracle.jdbc.OracleConnection)) {
