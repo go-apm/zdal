@@ -26,6 +26,7 @@ Zdal means Zhifubao Distributed Data Layer, is a middleware for shard databases 
 ## Changes
    1. support loading config file from classpath
    2. support utf8mb4
+   
 ## Documentation
 * [English](https://github.com/yuanwhy/zdal/wiki/Zdal-Tutorial)
 * [中文文档](https://github.com/yuanwhy/zdal/wiki/Zdal%E4%B8%AD%E6%96%87%E6%95%99%E7%A8%8B)
