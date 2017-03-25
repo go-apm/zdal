@@ -106,7 +106,6 @@ public class ZdalConfigurationLoader {
      * @param fileNames
      * @param appName
      * @param dbMode
-     * @param idcName
      */
     private synchronized Map<String, ZdalConfig> loadZdalConfigurationContext(String[] fileNames,
                                                                               String appName,

@@ -35,7 +35,7 @@
 		<property name="name" value="master_0" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shard_0?useUnicode=true&amp;characterEncoding=gbk" />
 	    <property name="userName" value="root" />
-	    <property name="password" value="root" />
+	    <property name="password" value="" />
 	    <property name="minConn" value="1" />
 	    <property name="maxConn" value="10" />
 	    <property name="blockingTimeoutMillis" value="180" />
@@ -59,7 +59,7 @@
 		<property name="name" value="master_1" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shard_1?useUnicode=true&amp;characterEncoding=gbk" />
 	    <property name="userName" value="root" />
-	    <property name="password" value="root" />
+	    <property name="password" value="" />
 	    <property name="minConn" value="1" />
 	    <property name="maxConn" value="10" />
 	    <property name="blockingTimeoutMillis" value="180" />
@@ -83,7 +83,7 @@
 		<property name="name" value="master_2" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shard_2?useUnicode=true&amp;characterEncoding=gbk" />
 	    <property name="userName" value="root" />
-	    <property name="password" value="root" />
+	    <property name="password" value="" />
 	    <property name="minConn" value="1" />
 	    <property name="maxConn" value="10" />
 	    <property name="blockingTimeoutMillis" value="180" />
@@ -107,7 +107,7 @@
 		<property name="name" value="master_3" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shard_3?useUnicode=true&amp;characterEncoding=gbk" />
 	    <property name="userName" value="root" />
-	    <property name="password" value="root" />
+	    <property name="password" value="" />
 	    <property name="minConn" value="1" />
 	    <property name="maxConn" value="10" />
 	    <property name="blockingTimeoutMillis" value="180" />
@@ -131,7 +131,7 @@
 		<property name="name" value="master_4" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shard_4?useUnicode=true&amp;characterEncoding=gbk" />
 	    <property name="userName" value="root" />
-	    <property name="password" value="root" />
+	    <property name="password" value="" />
 	    <property name="minConn" value="1" />
 	    <property name="maxConn" value="10" />
 	    <property name="blockingTimeoutMillis" value="180" />

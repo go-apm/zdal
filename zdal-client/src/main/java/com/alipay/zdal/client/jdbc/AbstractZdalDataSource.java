@@ -757,7 +757,7 @@ public abstract class AbstractZdalDataSource extends ZdalDataSourceConfig implem
     /**
      * reset zdatasource，failoverRule，readWriteRule,目前tair数据源不支持重建.
      * 
-     * @param zdalConfig
+     * @param keyWeights
      */
     public void resetZdalDataSource(Map<String, String> keyWeights) {
         try {
