@@ -23,7 +23,7 @@ import com.alipay.zdal.common.Closable;
  * @author ²®ÑÀ
  * @version $Id: ZdalDataSource.java, v 0.1 2012-11-17 ÏÂÎç4:08:43 Exp $
  */
-public class ZdalDataSource extends AbstractZdalDataSource implements DataSource, Closable {
+public class ZdalDataSource extends AbstractZdalDataSource {
 
     public void init() {
         if (super.inited.get() == true) {
